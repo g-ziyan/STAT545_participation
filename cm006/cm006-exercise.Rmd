@@ -46,9 +46,7 @@ Notice the "metaprogramming" again!
 
 4. You _must_ remember to put the aesthetic mappings in the `aes` function! What happens if you forget?
 
-```{r}
-ggplot(gapminder, x=lifeExp, y=gdpPercap) +geom_point()
-```
+
 
 
 5. Put the x-axis on a log scale, first by transforming the x variable. 
