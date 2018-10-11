@@ -118,7 +118,7 @@ lotr_tidy %>%
   unite(Race_Gender, Race, Gender) %>% 
   spread(key = "Race_Gender",value="Words")
 lotr_tidy %>% 
-  mutate(x =rnorm(nrow(lotr_tidy))) %>% 
+  mutate(x =rnorm(nrow(lotr_tidy))) 
   spread(key = "Gender",value="x")
 ```
 
