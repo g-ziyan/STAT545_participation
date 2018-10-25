@@ -197,14 +197,14 @@ Here are the 2007 life expectancies of Asian countries:
 
 ```{r}
 gap_asia_2007 <- gapminder %>% 
-  filter(year == 2007, continent == "Asia")
+  filter(year == 2007, continent == "Asia") 
 ggplot(gap_asia_2007, aes(lifeExp, country)) + geom_point()
 ```
 
 Let's use `fct_reorder()` to reorder the countries of `gap_asia_2007` by life Expectancy, and produce the same plot:
 
 ```{r, fig.width=4, fig.height=3}
-gap_asia_2007 %>% 
+gap_asia_2007  %>% 
   mutate(country = fct_reorder(country, lifeExp)) %>% 
 ggplot(aes(lifeExp, country)) +geom_point()
 ```
