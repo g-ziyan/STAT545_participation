@@ -1,4 +1,5 @@
 # STAT545_participation
-This repo is part of a STAT 545 exercise to explore GitHub and markdown.
+Welcome to the participation repo.
 
-This line was added locally.
+### Just noted that Exercise 106 was added in the cm105 folder.
+### Thanks!
